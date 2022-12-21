@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar"
-// import Banner from "../components/Banner"
+import Navbar from "../components/navbar/Navbar"
 import Head from "next/head" 
 import Banner from "../components/Banner"
 import Service from "../components/services/Service"
@@ -23,7 +22,7 @@ export default function Home() {
           
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-          
+
           <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet" />
           
