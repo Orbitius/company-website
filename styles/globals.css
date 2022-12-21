@@ -10,14 +10,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: white;
   color: black;
+
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -36,4 +38,6 @@ a {
   background-image:
   radial-gradient(at 0% 0%, hsla(240,56%,39%,0.29) 0px, transparent 50%),
   radial-gradient(at 100% 100%, hsla(306,63%,7%,1) 0px, transparent 50%);
+=======
+>>>>>>> df841ac07765523c3b5ad5f51589ebc907192f54
 }
