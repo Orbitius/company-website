@@ -13,6 +13,7 @@ const navbar = {
         280:items-center
         280:py-4
         280:px-4
+        280:shadow-[rgb(0 0 0 / 7%) 0px -1px 38px]
         
 
         760:py-6
@@ -27,7 +28,7 @@ const navbar = {
         280:text-[25px]
     `, 
     menu_bar: `
-        280:text-[20px]
+        280:text-[23px]
         760:hidden 
     `,
 
@@ -52,7 +53,7 @@ const navbar = {
         280:top-0 
         280:bottom-0 
         280:left-0 
-        280:bg-[rgba(255,255,255,0.6)]
+        280:bg-[rgba(0,0,0,0.6)]
 
         760:hidden
     `,
@@ -61,8 +62,8 @@ const navbar = {
         280:z-10 
         280:h-screen 
         280:ml-auto 
-        280:bg-black 
-        280:p-3
+        280:bg-white 
+        280:p-4
 
         280:w-[240px]
         360:w-[280px]
@@ -147,7 +148,7 @@ const navbar = {
     contact_sub_div: `
         280:flex 
         280:items-center 
-        280:pb-1
+        280:pb-2
     `,
     contact_icon: `
         280:mr-2 
@@ -231,7 +232,7 @@ const Navbar = () => {
 
                     <div className={`${navbar.contact_sub_div}`}>
                         <HiOutlineMail className={`${navbar.contact_icon}`}/>
-                        <span className={`${navbar.contact_detail}`}>webnization@gmail.com</span> 
+                        <span className={`${navbar.contact_detail}`}>orbitius04@gmail.com</span> 
                     </div> 
                 </div>
             </div>
