@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
        <Head>
-          <meta charSet="utf-8" />
+          <meta charSet="utf-8" /> 
           <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
@@ -23,7 +23,8 @@ export default function Home() {
 
           <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet" />
-          
+          <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet" />
+
           <title>Company Website</title>
       </Head> 
       <Navbar />
