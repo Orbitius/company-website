@@ -137,7 +137,7 @@ const Navbar = () => {
 
                     <div className={`${navbar.contact_sub_div}`}>
                         <HiOutlineMail className={`${navbar.contact_icon}`}/>
-                        <span className={`${navbar.contact_detail}`}>webnization@gmail.com</span> 
+                        <span className={`${navbar.contact_detail}`}>oribitius04@gmail.com</span> 
                     </div> 
                 </div>
             </div>

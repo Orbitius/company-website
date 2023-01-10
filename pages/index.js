@@ -2,6 +2,7 @@ import Navbar from "../components/navbar/Navbar"
 import Head from "next/head" 
 import Banner from "../components/Banner"
 import Service from "../components/services/Service"
+import Footer from "../components/footer/Footer"
 
 export default function Home() { 
 
@@ -31,6 +32,7 @@ export default function Home() {
       <Navbar />
       <Banner />
       <Service />
+      <Footer />
     </div>
   )
 } 
