@@ -8,8 +8,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* background: black; */
-  /* color: white; */
+  background-color: white;
+  color: black;
+
 }
 
 a {
@@ -20,4 +21,23 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.gradient {
+  background-color:#0f0e13;
+  background-image:
+  radial-gradient(at 0% 0%, hsla(240,56%,39%,0.29) 0px, transparent 50%),
+  radial-gradient(at 100% 100%, hsla(306,63%,7%,1) 0px, transparent 50%);
+=======
+>>>>>>> df841ac07765523c3b5ad5f51589ebc907192f54
 }

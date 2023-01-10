@@ -14,10 +14,10 @@ const Navbar = () => {
         body.style.overflowX = 'hidden'
     }, [list])
 
-    return (
+    return ( 
         <div className={`${navbar.main}`}> 
-            <h1 className={`${navbar.name_heading}`} style={{fontFamily: "Kdam Thmor Pro"}}>Orbitius</h1> 
-            <HiMenu className={`${navbar.menu_bar}`} onClick={() => setList(true)}/>  
+            <h1 className={`${navbar.name_heading}`} style={{fontFamily: "Kdam Thmor Pro"}}>Worxom</h1> 
+            <HiMenu className={`${navbar.menu_bar}`} onClick={() => setList(true)}/>   
 
             <div 
                 onClick={() => {

@@ -5,13 +5,13 @@ export const navbar = {
         280:items-center
         280:py-4
         280:px-4
-        280:shadow-md         
+        shadow-md bg-white
 
         760:py-6
         760:px-6 
 
         960:px-16
-        
+         
     `,
     name_heading:`
         280:text-[#ff3d00] 
@@ -20,7 +20,7 @@ export const navbar = {
     `, 
     menu_bar: `
         280:text-[20px]
-        760:hidden 
+        760:hidden text-black
     `,
 
     ul_div: `
@@ -44,7 +44,7 @@ export const navbar = {
         280:top-0 
         280:bottom-0 
         280:left-0 
-        280:bg-[rgba(255,255,255,0.6)]
+        280:bg-[rgba(0,0,0,0.6)]
 
         760:hidden
     `,
@@ -53,9 +53,9 @@ export const navbar = {
         280:z-10 
         280:h-screen 
         280:ml-auto 
-        280:bg-black 
+         
         280:p-3
-
+        280:bg-white
         280:w-[240px]
         360:w-[280px]
         460:w-[300px]
@@ -82,10 +82,10 @@ export const navbar = {
         280:text-[20px]
         280:ml-auto
 
-        760:hidden
+        760:hidden text-black
     `,
     li:`
-        280:text-[14px]
+        280:text-[14px] text-black
         280:font-semibold
         280:py-2
         280:uppercase 
@@ -134,7 +134,7 @@ export const navbar = {
 
     contact_div: `
         280:py-5 
-        760:hidden
+        760:hidden text-black
     `,
     contact_sub_div: `
         280:flex 
